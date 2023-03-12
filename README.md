@@ -1,3 +1,9 @@
-# 18CSE301J_RA2011026010240
-public repository for information visualization
-<a href="https://allenben18.github.io/18CSE301J_RA2011026010240/">18CSE301J_RA2011026010240</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>18CSE301J_RA2011026010240</title>
+</head>
+<body>
+    <!-- Your content goes here -->
+</body>
+</html>
