@@ -23,5 +23,9 @@ h2 {
         
   
 </body>
+    <figure>
+  <img src="18CSE301J/py.jpg" alt="Visualization 1 using Python (Wickets with respect to Average)">
+  <figcaption>Visualization 1 using Python (Wickets with respect to Average)</figcaption>
+</figure>
 
 </html>
