@@ -23,10 +23,69 @@ h2 {
         
   
 </body>
-    <body>
-    <figure>
-  <img src="18CSE301J/py.jpg" alt="Visualization 1 using Python (Wickets with respect to Average)">
-  <figcaption>Visualization 1 using Python (Wickets with respect to Average)</figcaption>
-</figure>
-    </body>
+    <!-- Assignment 2 -->
+
+    <div>
+      <h1>ASSIGNMENT 2</h1>
+      <h2>Python - Plotly</h2>
+      <div >
+        <img src="py.jpeg" alt="" width="700px">
+        
+      </div>
+    </div>
+    <style>
+      body {
+        display: block;
+        text-align: center;
+      }
+      .tableauPlaceholder {
+        margin: auto;
+      }
+
+      .main {
+        display: none;
+        color: white;
+      }
+
+      .desc {
+        text-align: center;
+        font-size: 25px;
+        margin: 5%;
+      }
+
+      .list1,
+      li {
+        text-align: left;
+        margin: 2%;
+      }
+
+      .main2 {
+        margin: auto;
+        width: 75%;
+      }
+
+      .card {
+        text-align: center;
+        padding: 1% 0;
+        color: black;
+        border-radius: 20px;
+        font-size: 15px;
+      }
+
+      .visualise {
+        margin: 2%;
+        padding: 1% 2%;
+        font-size: 24px;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        background-color: #04aa6d;
+      }
+
+      .visualise:hover {
+        background-color: #015a39;
+      }
+    </style>
+
+    
 </html>
