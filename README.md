@@ -16,7 +16,7 @@
       font-size: 24px;
       font-weight: bold;
       color: #333;
-      text-align: center;
+      text-align: centre;
       padding: 20px;
     }
     .heading {
@@ -126,6 +126,37 @@
       color: #4CAF50;
       font-weight: bold;
     }
+    .references {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .references h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .references ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .references li {
+    margin-bottom: 5px;
+  }
+  
+  .references li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .references li a:hover {
+    text-decoration: underline;
+  }
   </style>
   <script>
    
@@ -272,6 +303,16 @@
       <button type="submit">Submit</button>
     </form>
   </div>
+   <div id="references">
+     <h2>References</h2>
+     <ul>
+       <li><a href="[URL](https://www.thehindu.com/business/Economy/explained-how-will-global-layoffs-impact-india/article66211639.ece)">How will global layoffs impact India?</a></li>
+       <li><a href="[URL](https://www.drishtiias.com/daily-updates/daily-news-analysis/impact-of-global-layoffs)">Impact of Global Layoffs</a></li>
+       <li><a href="[URL](https://www.linkedin.com/pulse/consequences-layoffs-understanding-impact-employees-economy-/)">The Consequences of Layoffs:</a></li>
+       <li><a href="[URL](https://ilearncana.com/details/Global-layoffs-and-impact-on-India/4038)">Global Layoffs And Impact On India</a></li>
+       <li><a href="[URL](https://www.axios.com/2023/03/03/how-layoffs-can-have-negative-long-term-consequences-for-companies)">How layoffs can have negative long-term consequences for companies</a></li>
+     </ul>
+     
 
   <div id="footer">
     <p>Credits @allen</p>
