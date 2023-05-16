@@ -2,9 +2,39 @@
 <html>
 <head>
   <title>Impact of Layoffs</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+  
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .Dashboard {
+      font-family: Roboto, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .heading {
+      font-family: Roboto, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .paragraphs {
+      margin: 20px;
+      padding: 0;
+    }
+
+    .paragraphs ul {
+      list-style-type: disc;
+      margin-left: 20px;
     }
     #menu {
       float: left;
@@ -69,3 +99,35 @@
     <h1>Dashboard</h1>
   </div>
     <div class='tableauPlaceholder' id='viz1684203028060' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Im&#47;ImpactofLayoffs&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ImpactofLayoffs&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Im&#47;ImpactofLayoffs&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1684203028060');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <div class="heading">
+    <h1>Inference</h1>
+  </div>
+
+  <div class="paragraphs">
+    <p>The countries with the most layoff-affected workers are:</p>
+    <ul>
+      <li>United States</li>
+      <li>India</li>
+      <li>China</li>
+      <li>Japan</li>
+      <li>Germany</li>
+      <li>United Kingdom</li>
+      <li>Canada</li>
+      <li>France</li>
+      <li>Brazil</li>
+      <li>Italy</li>
+    </ul>
+
+    <p>These countries are home to some of the world's largest companies, which have been hit hard by the economic downturn. In addition, these countries have large populations, which means that even a small percentage of layoffs can have a significant impact on the overall economy.</p>
+
+    <p>The following are some of the reasons why these countries have been hit so hard by layoffs:</p>
+    <ul>
+      <li>The global economic downturn has led to a decrease in demand for goods and services, which has forced companies to cut costs.</li>
+      <li>The rise of automation and artificial intelligence is displacing workers in many industries.</li>
+      <li>The COVID-19 pandemic has caused widespread disruption to businesses, leading to layoffs.</li>
+    </ul>
+
+    <p>The layoffs are having a significant impact on the economies of these countries. In the United States, for example, the unemployment rate is at its highest level in decades. The layoffs are also having a negative impact on consumer spending, which is a major driver of economic growth.</p>
+
+    <p>It is unclear how long the layoffs will continue. However, it is likely that they will have a lasting impact on the economies of these countries.</p>
+  </div>
