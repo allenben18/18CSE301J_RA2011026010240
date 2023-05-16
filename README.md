@@ -49,6 +49,7 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 4px;
+      background-color: #f9f9f9;
     }
 
     .comment-box label {
@@ -57,6 +58,7 @@
     }
 
     .comment-box input[type="text"],
+    .comment-box input[type="email"],
     .comment-box textarea {
       width: 100%;
       padding: 8px;
@@ -74,10 +76,20 @@
       cursor: pointer;
     }
 
+    .comment-box button:hover {
+      background-color: #45a049;
+    }
+
     .credits {
       text-align: center;
       margin: 20px;
-      color: #999;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .credits span {
+      color: #4CAF50;
+      font-weight: bold;
     }
   </style>
   <script>
