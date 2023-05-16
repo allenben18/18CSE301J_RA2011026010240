@@ -5,11 +5,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
   
   <style>
-    body {
+     body {
+      background-color: #FCEFF0;
       font-family: Arial, sans-serif;
-      margin: 0;
+      margin: 20px; /* Adjust the margin as desired */
       padding: 0;
-      background-color: #f9e6e6; /* Pale pink background color */
     }
     .Dashboard {
       font-family: Roboto, sans-serif;
