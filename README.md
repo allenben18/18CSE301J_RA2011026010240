@@ -99,6 +99,17 @@
       border-radius: 4px;
       cursor: pointer;
     }
+    #header {
+      background-color: #FFFFFF;
+      padding: 20px;
+      text-align: center;
+    }
+    #footer {
+      background-color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+    }
 
     .comment-box button:hover {
       background-color: #45a049;
@@ -262,7 +273,7 @@
     </form>
   </div>
 
-  <div class="credits">
+  <div id="footer">
     <p>Credits @allen</p>
   </div>
 
