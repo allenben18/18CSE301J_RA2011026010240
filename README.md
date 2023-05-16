@@ -44,6 +44,41 @@
       font-family: Raleway, sans-serif;
       font-weight: bold;
     }
+    .comment-box {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .comment-box label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .comment-box input[type="text"],
+    .comment-box textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+
+    .comment-box button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .credits {
+      text-align: center;
+      margin: 20px;
+      color: #999;
+    }
   </style>
   <script>
     function openPage(pageName) {
@@ -171,5 +206,28 @@
     <p>It is important to note that the industries that are most affected by layoffs can vary depending on the specific economic conditions. For example, during the COVID-19 pandemic, the travel and tourism industry was hit particularly hard, as businesses were forced to close and people were unable to travel.</p>
 
     <p>Overall, the industries that are most affected by layoffs are those that are cyclical, essential, and susceptible to automation and artificial intelligence.</p>
+  </div>
+    <div class="heading">
+    <h1>Discussion</h1>
+  </div>
+
+  <div class="comment-box">
+    <h3>Leave a Comment</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="credits">
+    <p>Credits @allen</p>
   </div>
 
