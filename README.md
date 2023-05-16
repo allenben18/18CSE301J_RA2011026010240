@@ -9,6 +9,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f9e6e6; /* Pale pink background color */
     }
     .Dashboard {
       font-family: Roboto, sans-serif;
@@ -37,8 +38,31 @@
       margin-left: 20px;
     }
     #menu {
-      float: left;
-      width: 200px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #menu h2 {
+      font-family: Roboto, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    #menu h2:hover {
+      color: #4CAF50;
+    }
+
+    #content {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #f9f9f9;
     }
     h1 {
       font-family: Raleway, sans-serif;
